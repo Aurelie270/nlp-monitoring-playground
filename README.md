@@ -19,6 +19,3 @@ Technologies
 - SQLite
 - Pandas / Matplotlib
 
-Lancer l’application
-pip install streamlit pandas matplotlib transformers
-streamlit run app.py
