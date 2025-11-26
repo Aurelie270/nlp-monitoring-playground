@@ -77,18 +77,6 @@ elif page == "📊 Monitoring":
         st.subheader("Visualisations")
         build_charts(df)
 
-elif page == "📚 À propos":
-    st.title("📚 À propos du projet")
-    st.markdown("""
-Ce projet est un **playground de monitoring de modèle NLP** :
-- Modèle : Transformer pré-entraîné (*sentiment analysis*).
-- Base : SQLite.
-- Interface : Streamlit.
-- Monitoring : métriques + graphiques, mis à jour au fil des prédictions.
+elif page == "À propos":
+    st.title("À propos du projet")
 
-Il a été conçu comme projet d'auto-formation pour :
-- MLOps (monitoring, journaux de prédiction),
-- Bases de données,
-- Métriques d'évaluation,
-- Transformers.
-""")
